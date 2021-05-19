@@ -8,7 +8,7 @@ class AdministradorController extends Controller
 {
    
     public function index()
-    {
+    {z
         $array= App\Administrador::all();
         return view('/Principal/Index' ,compact('array'));
     }
@@ -34,7 +34,7 @@ class AdministradorController extends Controller
     public function admininstradorMessage($datos)
     {
         $array= App\Administrador::all();
-        $idFarmaciaPedido = Administrador::find($request->id);
+        $idFarmaciaPedido = Administrador::find($request->idAdministrador);
         return view('negocios/inicio', compact('array'));
     
         
