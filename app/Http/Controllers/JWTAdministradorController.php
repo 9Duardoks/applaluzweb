@@ -11,5 +11,16 @@ class JWTAdministradorController extends Controller
     {     
         return view('login');
     }
+    public function Update()
+    {     
+        return view('login');
+    }
+    public function Foreign))
+    {     
+        return view('login');
+    }
+    P
+
+
 }
 

@@ -106,21 +106,21 @@
 
                                     <label class="btn btn btn-outline-danger active">
                                         <input type="radio" name="options" id="option1" autocomplete="off"
-                                            checked>Pendiente
+                                            checked>Habilitado
                                     </label>
                                     <label class="btn btn btn-outline-danger">
-                                        <input type="radio" name="options" id="option2" autocomplete="off">Revisado
+                                        <input type="radio" name="options" id="option2" autocomplete="off">Deshabiltiado
                                     </label>
 
 
                                     @else
 
                                     <label class="btn btn btn-outline-danger">
-                                        <input type="radio" name="options" id="option1" autocomplete="off">Pendiente
+                                        <input type="radio" name="options" id="option1" autocomplete="off">Habilitado
                                     </label>
                                     <label class="btn btn btn-outline-danger active">
                                         <input type="radio" name="options" id="option2" autocomplete="off"
-                                            checked>Revisado
+                                            checked>Deshabilitado
                                     </label>
 
                                     @endif

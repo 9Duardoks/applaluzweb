@@ -11,4 +11,5 @@ class ComentarioController extends Controller
         $comentario= App\Comentario::all();
         return view('Negocio/Comentario', compact('comentario'));
     }
+    
 }
